@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css';
 
 const Header = () => {
+  const [isOpen, setMenu] = useState(false);
+
   return (
     <header className='header'>
       <nav className='nav container'>
@@ -9,10 +11,10 @@ const Header = () => {
           .yul
         </a>
 
-        <div className='nav__menu'>
+        <div className={isOpen ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className='nav__list grid'>
             <li className='nav__item'>
-              <a href='#' className='nav__link'>
+              <a href='#' className='nav__link avtive-link'>
                 <i className='uil uil-estate nav__icon'></i>Home
               </a>
             </li>
@@ -25,7 +27,7 @@ const Header = () => {
 
             <li className='nav__item'>
               <a href='#skills' className='nav__link'>
-                <i class='uil uil-clipboard-alt'></i>
+                <i class='uil uil-clipboard-alt nav__icon'></i>
                 Skills
               </a>
             </li>
@@ -43,10 +45,13 @@ const Header = () => {
             </li>
           </ul>
 
-          <i class='uil uil-times nav__close'></i>
+          <i
+            class='uil uil-times nav__close'
+            onClick={() => setMenu(false)}
+          ></i>
         </div>
 
-        <div className='nav__toggle'>
+        <div className='nav__toggle' onClick={() => setMenu(true)}>
           <i class='uil uil-apps'></i>
         </div>
       </nav>

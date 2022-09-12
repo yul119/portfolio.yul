@@ -24,7 +24,7 @@
   /* font weight */
   --font-normal: 400;
   --font-medium: 500;
-  --font-semi: 600;
+  --font-bold: 600;
 
   /* margin */
   --m-0-25: 0.25rem;
@@ -64,7 +64,7 @@ h1,
 h2,
 h3 {
   color: var(--title-color-gray);
-  font-weight: var(--font-semi);
+  font-weight: var(--font-bold);
 }
 
 ul {
@@ -142,6 +142,11 @@ img {
 /* breakpoints  */
 
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--m-1-5);
+    margin-right: var(--m-1-5);
+  }
 }
+
 @media screen and (max-width: 600px) {
 }
