@@ -12,7 +12,22 @@ const Home = () => {
           <div className='home__img'></div>
 
           <div className='home__info'>
-            <h1 className='home__title'>Dang Long</h1>
+            <p>Hello. My name is</p>
+            <h1 className='home__name'>Dang Long</h1>
+            <div className='home__title'>
+              <p>
+                I'm a <span>Front-End Developer</span>
+              </p>
+            </div>
+            <a href='#contact' className='button button-flex'>
+              Contact me !
+            </a>
+          </div>
+        </div>
+        <div className='home__arrow'>
+          {/* <i class='uil uil-angle-double-down arrow-down'></i> */}
+          <div className='arrow-down'>
+            <span></span>
           </div>
         </div>
       </div>

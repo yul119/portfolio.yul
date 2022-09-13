@@ -17,7 +17,7 @@
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color-gray);
+  color: var(--title-color-dark);
   font-weight: var(--font-medium);
   font-size: 1.5rem;
 }
@@ -45,11 +45,11 @@
 
 .avtive-link,
 .nav__link:hover {
-  /* color: var(--title-color-dark); */
+  color: var(--title-color-dark);
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 572px) {
   .header {
     top: initial;
     bottom: 0;
