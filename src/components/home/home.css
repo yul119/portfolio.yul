@@ -1,4 +1,4 @@
-.home__container {
+div.home__container div {
   row-gap: 4rem;
 }
 .home__content {
@@ -11,7 +11,7 @@
 .home__social {
   display: grid;
   grid-template-columns: max-content;
-  row-gap: 1rem;
+  row-gap: 1rem !important;
 }
 
 .home__social-icon {
@@ -49,6 +49,7 @@
 
 .home__img {
   background: url(../../assets/danglong.png);
+  /* background: url('https://res.cloudinary.com/dorbkvmvo/image/upload/v1659692903/nonavt_uolnwl.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -95,7 +96,7 @@
   height: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .home__title > p > span {
@@ -108,6 +109,8 @@
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 .arrow-down {
   width: 20px;
@@ -196,6 +199,11 @@
     margin-top: 0;
     margin-left: 3rem;
   }
+  .contact-button {
+    display: flex;
+    justify-content: center;
+  }
+
   .home__arrow {
     display: none;
   }

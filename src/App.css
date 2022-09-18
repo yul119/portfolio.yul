@@ -97,7 +97,12 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
+  margin-bottom: 4rem;
+}
+.section__content {
+  display: block;
+  font-size: var(--h3-font-size);
   margin-bottom: 4rem;
 }
 
@@ -150,8 +155,10 @@ img {
 @media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   .section {
     padding: 2rem 0 4rem;
   }
+}
+@media screen and (max-width: 350px) {
 }

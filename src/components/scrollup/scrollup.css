@@ -1,0 +1,55 @@
+.scrollup {
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  background-color: var(--title-color-gray);
+  opacity: 0.8;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+  z-index: 1000;
+  animation: moveup 1s ease-in infinite;
+  transition: 0.5s;
+}
+
+.scrollup:hover {
+  background-color: var(--title-color-dark);
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: var(--container-color);
+}
+
+@keyframes moveup {
+  /* 50% {
+    background-color: transparent;
+  } */
+  100% {
+    transform: translateY(-0.3rem);
+  }
+}
+
+.show-scrollup {
+  bottom: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .scrollup {
+    right: 1.5rem;
+    padding: 0.25rem 0.4rem;
+  }
+  .scrollup__icon {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .scrollup {
+    right: 1rem;
+  }
+  .show-scrollup {
+    bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}

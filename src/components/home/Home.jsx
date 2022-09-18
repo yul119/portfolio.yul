@@ -19,9 +19,11 @@ const Home = () => {
                 I'm a <span>Front-End Developer</span>
               </p>
             </div>
-            <a href='#contact' className='button button-flex'>
-              Contact me !
-            </a>
+            <div className='contact-button'>
+              <a href='#contact' className='button button-flex'>
+                Contact me !
+              </a>
+            </div>
           </div>
         </div>
         <div className='home__arrow'>
