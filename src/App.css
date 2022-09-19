@@ -155,10 +155,14 @@ img {
 @media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 572px) {
   .section {
     padding: 2rem 0 4rem;
   }
 }
 @media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--m-1);
+    margin-right: var(--m-1);
+  }
 }

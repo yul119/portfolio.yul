@@ -1,11 +1,10 @@
 import React from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const SkillsTag = ({ skills, title, aos }) => {
   return (
     <div className='skills__wrapper-content'>
-      <div data-aos={`fade-${aos}`} className='skills__content'>
+      <div data-aos={`zoom-in-${aos}`} className='skills__content'>
+        {/* <div data-aos='' className='skills__content'> */}
         <h2 className='skills__title'>{title}</h2>
 
         <div className='skills__wrapper-skills'>
