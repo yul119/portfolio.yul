@@ -7,7 +7,7 @@ import SkillsTag from './SkillsTag';
 const Skills = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1500,
     });
   }, []);
 

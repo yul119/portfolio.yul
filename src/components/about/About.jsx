@@ -16,7 +16,7 @@ const About = () => {
     if (countRef.current < text.length) {
       setContent((prev) => (prev += text.charAt(countRef.current)));
       countRef.current++;
-      setTimeout(typeWriter, 25);
+      setTimeout(typeWriter, 50);
     }
   };
   if (isVisible) {
@@ -35,7 +35,7 @@ const About = () => {
 
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1500,
     });
   }, []);
 
