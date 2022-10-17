@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1e14c484.css",
+    "main.js": "./static/js/main.e6b0e275.js",
+    "static/media/danglong.png": "./static/media/danglong.682b0db434799b81cfb0.png",
+    "static/media/DangThanhLong_CV_BackendDeveloper.pdf": "./static/media/DangThanhLong_CV_BackendDeveloper.c6b5b09fb98d3e204dfa.pdf",
+    "index.html": "./index.html",
+    "main.1e14c484.css.map": "./static/css/main.1e14c484.css.map",
+    "main.e6b0e275.js.map": "./static/js/main.e6b0e275.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e14c484.css",
+    "static/js/main.e6b0e275.js"
+  ]
+}
