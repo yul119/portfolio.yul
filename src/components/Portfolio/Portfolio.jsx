@@ -23,7 +23,7 @@ const Portfolio = () => {
       <div className='portfolio__container container grid'>
         <div className='portfolio__wrapper-content'>
           <div
-            data-aos='fade-up'
+            data-aos='fade-right'
             className='portfolio__content'
             style={{ marginBottom: '2rem' }}
           >
@@ -41,7 +41,7 @@ const Portfolio = () => {
         </div>
 
         <div className='portfolio__wrapper-content'>
-          <div data-aos='fade-up' className='portfolio__content'>
+          <div data-aos='fade-left' className='portfolio__content'>
             <h2>Movie app - Netflix.yul</h2>
             <div className='portfolio__slider'>
               <SimpleSlider src='https://res.cloudinary.com/dorbkvmvo/image/upload/v1665989452/portfolio/ezgif.com-gif-maker_2_tmy4yh.gif' />
