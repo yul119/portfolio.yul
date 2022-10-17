@@ -38,7 +38,15 @@ const Skills = () => {
         <SkillsTag
           aos='left'
           title='Backend'
-          skills={['NodeJS', 'ExpressJS', 'MongoDB', 'SocketIO', 'JWT', '...']}
+          skills={[
+            'NodeJS',
+            'ExpressJS',
+            'MongoDB',
+            'SocketIO',
+            'JWT',
+            'RestfulAPI',
+            '...',
+          ]}
         />
         <SkillsTag
           aos='right'
@@ -55,7 +63,7 @@ const Skills = () => {
         <SkillsTag
           aos='left'
           title='Other'
-          skills={['Github', 'OOP', 'Linux', '...']}
+          skills={['Github', 'OOP', 'Linux', 'Vim', '...']}
         />
       </div>
     </section>

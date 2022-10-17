@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './about.css';
+import CV from '../../assets/DangThanhLong_CV_BackendDeveloper.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -10,13 +11,13 @@ const About = () => {
   const [isVisible, setVisible] = useState();
 
   const text =
-    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo accusamus itaque dolorem officia quisquam hic, est adipisci, reprehenderit aliquam placeat odio, atque blanditiis ab reiciendis ea sequi in? Quo. ';
+    'Hi there 👋, My name is Long, and I am a student at Hanoi University Of Industry. I had a strong passion for Web Development since my second year.\n \n I love to building web application. Whenever possible, I also put my love of creating things using Node.js and Modern Javascript Library/Frameworks like ReactJS and VueJS ';
 
   const typeWriter = () => {
     if (countRef.current < text.length) {
       setContent((prev) => (prev += text.charAt(countRef.current)));
       countRef.current++;
-      setTimeout(typeWriter, 50);
+      setTimeout(typeWriter, 40);
     }
   };
   if (isVisible) {
@@ -55,7 +56,7 @@ const About = () => {
         </p>
       </div>
       <div className='download-button'>
-        <a href='#' className='button botton-flex'>
+        <a href={CV} download='' className='button botton-flex'>
           Download CV
         </a>
       </div>

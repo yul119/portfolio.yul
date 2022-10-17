@@ -7,6 +7,7 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Scrollup from './components/scrollup/Scrollup';
 import Skills from './components/skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Home />
         <About />
         <Skills />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />
