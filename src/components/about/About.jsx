@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './about.css';
-import CV from '../../assets/DangThanhLong_CV_BackendDeveloper.pdf';
+import CV from '../../assets/Dang_Thanh_Long_Web_Developer.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
